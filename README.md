@@ -57,7 +57,6 @@ pip install -r requirements.txt
 Configure a local `.env` file in the root directory. This file is included in the `.gitignore` to ensure keys remain local to the user's environment.
 ```text
 OPENAI_API_KEY=your_theoretical_access_key
-
 ```
 
 
