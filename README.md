@@ -8,6 +8,10 @@
 
 **Simulated Telemetry FDIR and Synthetic Electronic Warfare Detection Pipeline**
 
+![Kalman FDIR rejecting an EW coordinate spoof](docs/hero.png)
+
+*Real output — `physics_engine.py` generates the synthetic LEO telemetry with a +5 km coordinate spoof injected at T+30s, and `flight_software.py`'s Kalman FDIR flags and rejects it instantly (residual > 1 km threshold). The estimate then dead-reckons; the slow drift as a sustained spoof re-captures a position-only filter is a documented limitation. Regenerate with `python make_hero.py`.*
+
 Sentinel Node is a theoretical flight software framework developed to simulate satellite telemetry monitoring and Fault Detection, Isolation, and Recovery (FDIR) protocols within a contested synthetic environment. The project serves as a proof-of-concept for a hybrid Kalman-Neural Centaur architecture, designed to identify non-ballistic anomalies in simulated trajectory data.
 
 ## Project Scope and Intent
