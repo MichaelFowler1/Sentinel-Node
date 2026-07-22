@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Sentinel-Node"
+abstract: "A simulated flight software pipeline for satellite telemetry FDIR. This purely synthetic environment utilizes a Kalman-Neural Centaur architecture: Linear Kalman Filters handle deterministic physics while GPT-5.1 generates SITREPs during simulated EW jamming events. Built with Poliastro to validate theoretical FDIR logic against synthetic datasets."
+authors:
+  - family-names: "Fowler"
+    given-names: "Michael"
+    alias: "MichaelFowler1"
+repository-code: "https://github.com/MichaelFowler1/Sentinel-Node"
+url: "https://github.com/MichaelFowler1/Sentinel-Node"
+license: "Apache-2.0"
+date-released: "2026-05-10"
