@@ -70,3 +70,15 @@ The user must initialize the kinematic surrogate generator to produce a syntheti
 ## About the Developer
 
 Michael Fowler is a Department of War Cost Estimator and systems analyst focusing on autonomous systems and tactical defense technology. He holds an Active Secret Clearance and is a Master of Science candidate in Systems Analysis at the Naval Postgraduate School.
+
+## License
+
+Everything in this repository from this change on is under the
+[PolyForm Noncommercial License 1.0.0](LICENSE). Earlier commits were released
+under the Apache License 2.0 and stay under it. In plain terms: it is free for
+any noncommercial purpose, and for schools and universities, public research
+organizations, government institutions and charities, whatever their funding.
+Commercial use needs a license from the author: ask through
+[the issue tracker](https://github.com/MichaelFowler1/Sentinel-Node/issues). Anyone who
+passes on a copy has to pass on the license and the `Required Notice:` line in
+[NOTICE](NOTICE). This is a plain summary; the LICENSE file is what governs.

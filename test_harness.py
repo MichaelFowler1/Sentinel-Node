@@ -1,3 +1,6 @@
+# Copyright 2026 Michael Fowler
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
 import numpy as np
 import csv
 from flight_software import SatelliteKalmanFilter
